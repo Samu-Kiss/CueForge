@@ -1,0 +1,31 @@
+{
+  "name": "cueforge",
+  "private": true,
+  "version": "1.0.0",
+  "license": "Unlicense",
+  "description": "CueForge — Transform music markers into a grandMA3 2.5.x sequence and synchronized timecode show",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/jszip": "^3.4.0",
+    "jszip": "^3.10.2",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "fake-indexeddb": "^6.2.6",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1",
+    "vitest": "^2.1.8"
+  }
+}
